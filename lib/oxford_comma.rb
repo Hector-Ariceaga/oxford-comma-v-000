@@ -10,5 +10,5 @@ def oxford_comma(array)
     array << "and"
     array << element_removed
     array.join(", ")
-end
+  end
 end
