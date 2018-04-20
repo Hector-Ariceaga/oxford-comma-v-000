@@ -5,7 +5,7 @@ def oxford_comma(array)
   when 2
     array.join(" and ")
   
-elsif
+elsif >=
     element_removed = array.pop
     array << "and"
     array << element_removed
