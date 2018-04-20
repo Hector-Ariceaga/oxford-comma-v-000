@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     element_removed = array.pop
     array.join(", ")
-     << "and "
-     << element_removed
+    array << "and "
+    array << element_removed
   end
 end
