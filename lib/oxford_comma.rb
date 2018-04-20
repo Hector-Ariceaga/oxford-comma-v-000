@@ -5,6 +5,7 @@ def oxford_comma(array)
   when 2
     array.join(" and ")
   when >= 3
-    element_removed= array.pop
-    array << "and "
+    element_removed = array.pop
+    array << "and", element_removed
+    array.join(", ")
 end
