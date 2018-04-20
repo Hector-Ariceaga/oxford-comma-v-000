@@ -9,3 +9,4 @@ def oxford_comma(array)
     array << "and", element_removed
     array.join(", ")
 end
+end
